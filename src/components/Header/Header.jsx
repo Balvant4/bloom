@@ -56,14 +56,14 @@ export default function Header() {
           <HotelDropdown />
           <Link
             href="/hyBloom"
-            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             Why Bloom?
           </Link>
 
           <Link
             href="/developers"
-            className="relative  font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-yellow-400 after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hidden lg:inline-block"
+            className="relative  font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hidden lg:inline-block"
           >
             Developers & Owners
           </Link>

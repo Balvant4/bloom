@@ -4,7 +4,7 @@ import HeroContent from "./HeroContent";
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen flex  overflow-hidden">
+    <section className="relative  flex  overflow-hidden">
       <HeroVideo />
       <HeroContent />
     </section>

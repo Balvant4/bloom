@@ -11,8 +11,8 @@ export default function LoadingScreen({ children }) {
 
   if (loading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
-        <div className="animate-spin rounded-full h-16 w-16 border-4 border-white border-t-transparent" />
+      <div className="fixed inset-0 flex items-center justify-center bg-white z-50">
+        <div className="animate-spin rounded-full h-16 w-16 border-4 border-[#ffcc09] border-t-transparent" />
       </div>
     );
   }

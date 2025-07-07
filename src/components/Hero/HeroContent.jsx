@@ -17,7 +17,8 @@ export default function HeroContent() {
     <div className="relative z-10 px-6 sm:px-10 lg:px-20 pt-32 md:pt-60 pb-20  max-w-2xl ml-2 md:ml-20">
       <div className="">
         <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 text-white drop-shadow-lg">
-          Fresh Travel, Hello Bloom.
+          Fresh Travel,
+          <br /> Hello Bloom.
         </h1>
         <h5 className="text-lg sm:text-2xl mb-6 text-white drop-shadow-md">
           A platform for a new generation of hotels for intelligent travellers,
