@@ -1,13 +1,13 @@
 import React from "react";
-import OfferCard from "./OfferCard";
 import Link from "next/link";
+import OfferBanner from "./OfferBanner";
 
-function CardsPage() {
+function BannerPage() {
   return (
-    <div className=" pb-36  bg-white text-black">
+    <div className="   bg-white text-black">
       <div className="px-4 sm:px-6 md:px-16 lg:px-28 py-12">
         <Link href="/" className=" cursor-pointer">
-          <OfferCard />
+          <OfferBanner />
         </Link>
       </div>
       <div>
@@ -21,4 +21,4 @@ function CardsPage() {
   );
 }
 
-export default CardsPage;
+export default BannerPage;

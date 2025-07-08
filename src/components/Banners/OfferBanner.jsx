@@ -1,6 +1,6 @@
 import React from "react";
 
-function OfferCard() {
+function OfferBanner() {
   return (
     <div className="bg-[#ffcc09] p-6 md:p-16 rounded-xl">
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
@@ -53,4 +53,4 @@ function OfferCard() {
   );
 }
 
-export default OfferCard;
+export default OfferBanner;
