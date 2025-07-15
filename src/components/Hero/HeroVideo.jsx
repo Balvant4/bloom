@@ -7,7 +7,7 @@ export default function HeroVideo() {
       muted
       loop
       playsInline
-      className="absolute inset-0 w-full  object-cover -z-10 h-[65vh] sm:h-screen"
+      className="absolute inset-0 w-full h-full object-cover -z-10"
     >
       <source src="/hero.webm" type="video/webm" />
     </video>

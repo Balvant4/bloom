@@ -4,10 +4,9 @@ import HeroContent from "./HeroContent";
 
 export default function HeroSection() {
   return (
-    <section className="relative  flex  overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       <HeroVideo />
       <HeroContent />
     </section>
   );
 }
-// This component serves as the hero section of the page, combining the video background and content.

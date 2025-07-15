@@ -16,9 +16,12 @@ function OfferBanner() {
               Get up to 15% off extra on your stays!
             </h5>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-4 leading-snug">
-            The more you stay,
-            <br /> the less you pay.
+          <h2 className="  text-xl text-white mt-4 leading-snug">
+            Hotel Limon Gurugram is located in the center of India's financial
+            and technological “Millennium City”, approximately 15 kilometers
+            from the airport. With 40 opulent rooms and Suites, the startingly
+            modern business hotel in Gurgaon overlooks Sector 29, the city's
+            liveliest district.
           </h2>
           <p className="text-[#6b5604] pt-4 text-sm hidden xl:block md:text-base max-w-md mx-auto md:mx-0">
             A loyalty program designed for our most committed guests — like you,
@@ -28,24 +31,12 @@ function OfferBanner() {
 
         {/* Right Section */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-          <div className="bg-white py-5 px-6 sm:px-10 rounded-xl border-2 border-amber-400 w-full max-w-sm">
-            <img src="/logo-yellow.svg" alt="logo" className="h-5 w-auto" />
+          <div className="rounded-xl border-2 border-amber-400 w-full max-w-sm overflow-hidden">
             <img
-              src="/unlock-member.svg"
-              alt="unlock member"
-              className="underline mt-2"
+              src="/bedroom.jpg"
+              alt="bedroom"
+              className="w-full h-auto object-cover"
             />
-            <div className="flex items-center pt-5 relative">
-              <h4 className="text-[#959595] font-bold text-base sm:text-lg md:text-xl pl-1">
-                Unlock Member Rates
-              </h4>
-              <span className="absolute left-0 -bottom-1 w-4/5 h-[2px] bg-amber-400"></span>
-              <img
-                src="/caret-right.svg"
-                alt="caret"
-                className="ml-2 h-4 w-4"
-              />
-            </div>
           </div>
         </div>
       </div>

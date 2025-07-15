@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useState, useRef } from "react";
-import HotelDropdown from "./HotelDropdown";
-import LoginDropdown from "./LoginDropdown";
+
 import MenuDropdown from "./MenuDropdown";
 import Link from "next/link";
 
@@ -44,31 +43,51 @@ export default function Header() {
           scrolled ? "py-4" : "py-10"
         }`}
       >
-        <h1 className="text-4xl font-bold text-amber-50">
-          <img
-            src="/logo-yellow.svg"
-            alt="Bloom Logo"
-            className="h-7 xl:h-10 w-auto text-amber-50"
-          />
-        </h1>
+        <img
+          src="/logo.svg"
+          alt="Bloom Logo"
+          className="h-7 xl:h-14 w-auto filter brightness-0 invert"
+        />
 
         <div className="flex items-center gap-10 lg:translate-x-[20px]">
-          <HotelDropdown />
           <Link
             href="/hyBloom"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
-            Why Bloom?
+            About
+          </Link>
+          <Link
+            href="/hyBloom"
+            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+          >
+            Hotels
+          </Link>
+          <Link
+            href="/hyBloom"
+            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+          >
+            Service Apartments
+          </Link>
+          <Link
+            href="/hyBloom"
+            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+          >
+            Events
+          </Link>
+          <Link
+            href="/hyBloom"
+            className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
+          >
+            Blogs
           </Link>
 
           <Link
             href="/developers"
             className="relative  font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hidden lg:inline-block"
           >
-            Developers & Owners
+            Contact
           </Link>
 
-          <LoginDropdown />
           <MenuDropdown />
         </div>
       </nav>
