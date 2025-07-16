@@ -5,17 +5,10 @@ import OfferBanner from "./OfferBanner";
 function BannerPage() {
   return (
     <div className="   bg-white text-black">
-      <div className=" py-12">
+      <div className=" ">
         <Link href="/" className=" cursor-pointer">
           <OfferBanner />
         </Link>
-      </div>
-      <div>
-        <img
-          src="/1749027022278-WEB_KR_1440 by 381.webp"
-          alt="kriti"
-          className=" w-full"
-        />
       </div>
     </div>
   );

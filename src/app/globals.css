@@ -1,9 +1,9 @@
 @import "tailwindcss";
-/* 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
-} */
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -12,42 +12,16 @@
   --font-mono: var(--font-geist-mono);
 }
 
-/* 
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-} */
+}
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
-
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
-  }
-
-  100% {
-    transform: translateX(-50%);
-  }
-}
-
-.animate-scroll-left {
-  animation: scroll-left 30s linear infinite;
-}
-
-/* Hide scrollbar for Chrome, Safari */
-.hide-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for Firefox */
-.hide-scrollbar {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
 }
