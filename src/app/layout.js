@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import LoadingScreen from "@/components/Loader/LoadingScreen"; // Optional: only if you want global loading UI
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,6 +23,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Optional: Uncomment if you want a global loader */}
+        <LoadingScreen />
+
+        {/* Page content that changes on navigation */}
         {children}
       </body>
     </html>

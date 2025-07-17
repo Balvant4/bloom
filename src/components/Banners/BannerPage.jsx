@@ -4,7 +4,7 @@ import OfferBanner from "./OfferBanner";
 
 function BannerPage() {
   return (
-    <div className="   bg-white text-black">
+    <div className="   bg-white text-black py-5">
       <div className=" ">
         <Link href="/" className=" cursor-pointer">
           <OfferBanner />
