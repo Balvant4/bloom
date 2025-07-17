@@ -5,6 +5,7 @@ import BannerPage from "@/components/Banners/BannerPage";
 import { CarouselDemo } from "@/components/Acternity-ui-components/CarouselDemo";
 
 import { StickyScrollRevealDemo } from "@/components/Acternity-ui-components/StickyScrollReveal";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection />
       <BannerPage />
       <CarouselDemo />
+      <Features />
       <StickyScrollRevealDemo />
     </>
   );

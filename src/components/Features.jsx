@@ -34,7 +34,7 @@ const Features = () => {
   const repeatedFeatures = [...features, ...features]; // Duplicate for smooth loop
 
   return (
-    <div className="features_container bg-white h-screen w-full text-black flex flex-col items-center justify-center overflow-hidden">
+    <div className="features_container bg-white py-20 w-full text-black flex flex-col items-center justify-center overflow-hidden">
       <h1 className="text-4xl font-semibold mb-4">Features</h1>
       <p className="text-center max-w-xl mb-10 text-gray-700">
         Spacious, well-appointed rooms and suites with high-end amenities and

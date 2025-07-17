@@ -86,7 +86,7 @@ const content = [
 ];
 export function StickyScrollRevealDemo() {
   return (
-    <div className="w-full ">
+    <div className="w-full py-5 ">
       <h1 className=" text-white text-4xl font-bold flex items-center justify-center bg-[#0f172a]">
         Nearby Locations
       </h1>
