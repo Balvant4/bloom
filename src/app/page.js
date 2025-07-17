@@ -7,6 +7,7 @@ import { CarouselDemo } from "@/components/Acternity-ui-components/CarouselDemo"
 import { StickyScrollRevealDemo } from "@/components/Acternity-ui-components/StickyScrollReveal";
 import Features from "@/components/Features";
 import Achievements from "@/components/Banners/Achievements";
+import OfferPromotions from "@/components/OfferPromotions";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Features />
       <StickyScrollRevealDemo />
       <Achievements />
+      <OfferPromotions />
     </>
   );
 }
