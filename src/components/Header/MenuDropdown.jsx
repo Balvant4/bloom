@@ -2,53 +2,62 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { X } from "lucide-react"; // Optional: install lucide-react or replace with ✕
-import { AlignRight } from "lucide-react";
+import { X, AlignRight } from "lucide-react";
 
 export default function MenuDropdown() {
   const [isOpen, setIsOpen] = useState(false);
 
   const pages = [
     { name: "About Us", href: "/about" },
-    { name: "Blog", href: "/blog" },
+    { name: "Hotels", href: "/hotel" },
+    { name: "Service Apartments", href: "/service" },
+    { name: "Events", href: "/events" },
+    { name: "Blogs", href: "/blogs" },
     { name: "Contact", href: "/contact" },
-    { name: "Careers", href: "/careers" },
   ];
 
   const handleClose = () => setIsOpen(false);
 
   return (
-    <>
+    <div className="relative lg:hidden">
+      {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="group hover:text-yellow-300 transition px-2 py-1 cursor-pointer font-bold"
+        className="p-2 text-white hover:text-yellow-400 transition duration-200"
       >
-        <AlignRight
-          size={28}
-          className=" transition-transform duration-300 ease-in-out group-hover:translate-x-1"
-        />
+        <AlignRight className="w-7 h-7" />
       </button>
 
+      {/* Menu Panel */}
       {isOpen && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-95 text-white flex flex-col items-center justify-center transition-all duration-300">
-          {/* Close button */}
-          <button
-            onClick={handleClose}
-            className="absolute top-6 right-6 text-white hover:text-yellow-400 text-2xl"
-            aria-label="Close menu"
-          >
-            <X size={30} />
-            {/* Or just use: ✕ */}
-          </button>
+        <div className="fixed inset-0 z-50 h-screen w-full bg-white text-black flex flex-col px-6 py-8 animate-slide-down">
+          {/* Top Row: Logo + Close */}
+          <div className="flex items-center justify-between">
+            {/* Logo */}
+            <img
+              src="/logo.svg"
+              alt="Bloom Logo"
+              className="h-36 w-36 sm:h-44 sm:w-44 rounded-2xl"
+            />
 
-          {/* Navigation links */}
-          <nav className="flex flex-col gap-6 text-2xl font-medium">
+            {/* Close Button */}
+            <button
+              onClick={handleClose}
+              className="text-black hover:text-yellow-400 transition pb-20"
+              aria-label="Close menu"
+            >
+              <X className="w-7 h-7" />
+            </button>
+          </div>
+
+          {/* Navigation */}
+          <nav className="mt-5 flex flex-col gap-6">
             {pages.map((page) => (
               <Link
                 key={page.name}
                 href={page.href}
                 onClick={handleClose}
-                className="hover:text-yellow-400 transition"
+                className="text-xl font-medium hover:text-yellow-400 transition duration-200"
               >
                 {page.name}
               </Link>
@@ -56,6 +65,24 @@ export default function MenuDropdown() {
           </nav>
         </div>
       )}
-    </>
+
+      {/* Animation */}
+      <style jsx>{`
+        .animate-slide-down {
+          animation: slideDown 0.35s ease-out;
+        }
+
+        @keyframes slideDown {
+          from {
+            opacity: 0;
+            transform: translateY(-20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
+    </div>
   );
 }

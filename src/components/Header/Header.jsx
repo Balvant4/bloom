@@ -51,38 +51,38 @@ export default function Header() {
 
         <div className="flex items-center gap-10 lg:translate-x-[20px]">
           <Link
-            href="/hyBloom"
+            href="/about"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             About
           </Link>
           <Link
-            href="/hyBloom"
+            href="/hotel"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             Hotels
           </Link>
           <Link
-            href="/hyBloom"
+            href="/service"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             Service Apartments
           </Link>
           <Link
-            href="/hyBloom"
+            href="/events"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             Events
           </Link>
           <Link
-            href="/hyBloom"
+            href="/blogs"
             className="relative hidden lg:inline-block font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-500 hover:after:w-full hover:after:left-0"
           >
             Blogs
           </Link>
 
           <Link
-            href="/developers"
+            href="/contact"
             className="relative  font-bold text-white after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#71717a] after:transition-all after:duration-300 hover:after:w-full hover:after:left-0 hidden lg:inline-block"
           >
             Contact
