@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bloom Hotels",
-  description: "Book a Bloom stay across India. Smart, Beautiful, Affordable.",
+  title: "Hotel Limon",
+  description:
+    "Book a Hotel Limon stay across India. Smart, Beautiful, Affordable.",
 };
 
 export default function RootLayout({ children }) {

@@ -24,7 +24,7 @@ export default function HeroContent() {
       </h5>
       {/* <input
         type="text"
-        placeholder={`Book a Bloom in ${cities[cityIndex]}...`}
+        placeholder={`Book a Hotel Limon in ${cities[cityIndex]}...`}
         className="w-full p-3 rounded bg-white/90 text-black placeholder:text-gray-600 shadow"
       /> */}
       <MainButton href="/book-now" text="Book Now" />

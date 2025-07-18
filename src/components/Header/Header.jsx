@@ -45,7 +45,7 @@ export default function Header() {
       >
         <img
           src="/logo.svg"
-          alt="Bloom Logo"
+          alt="Hotel Limon Logo"
           className="h-7 xl:h-14 w-auto filter brightness-0 invert"
         />
 

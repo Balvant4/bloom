@@ -34,7 +34,9 @@ export default function ContactPage() {
           >
             <div className="flex items-center gap-4">
               <MapPin className="text-cyan-400" />
-              <p className="text-slate-300">123 Bloom Street, Cityville, IN</p>
+              <p className="text-slate-300">
+                123 Hotel Limon Street, Cityville, IN
+              </p>
             </div>
             <div className="flex items-center gap-4">
               <Phone className="text-cyan-400" />

@@ -36,7 +36,7 @@ export default function MenuDropdown() {
             {/* Logo */}
             <img
               src="/logo.svg"
-              alt="Bloom Logo"
+              alt="Hotel Limon Logo"
               className="h-36 w-36 sm:h-44 sm:w-44 rounded-2xl"
             />
 

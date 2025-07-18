@@ -9,8 +9,7 @@ const items = [
     buttonText: "Upto 15% Off",
     description:
       "Special Rates Complimentary Services Festive Decor and Ambiance Customized Packages Advance Booking Discounts Loyalty Rewards.",
-    image:
-      "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/festive.png",
   },
   {
     title: "Extended Stay Special",
@@ -18,8 +17,7 @@ const items = [
     buttonText: "Upto 11% Off",
     description:
       "Discounted Rates Complimentary Breakfast Free Wi-Fi Access to Fitness Center & Swimming Pool Laundry Services Airport Transportation Flexible Booking Availability Ideal for Long-Term Stays",
-    image:
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/stay.webp",
   },
   {
     title: "Weekend Escape",
@@ -27,8 +25,7 @@ const items = [
     buttonText: "Upto 16% Off",
     description:
       "Complimentary Breakfast Late Check-Out Free Wi-Fi Access Access to Hotel Amenities Flexible Booking Room Types Included in the Offer Ideal for Weekend Getaways",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-06f35f1f6d3d?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/weekend.jpeg",
   },
   {
     title: "Luxury Suite Upgrade",
@@ -36,8 +33,7 @@ const items = [
     buttonText: "Upto 7% Off",
     description:
       "Discounted Rates for Suite Upgrades Complimentary Breakfast Late Check-Out Free Wi-Fi Access Access to Hotel Amenities Flexible Booking Availability and Restrictions Ideal for Special Occasions or a Splurge",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-06f35f1f6d3d?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/modern-luxury.jpg",
   },
   {
     title: "Members Exclusive Offers",
@@ -45,8 +41,7 @@ const items = [
     buttonText: "Upto 20% Off",
     description:
       "Discounts on Room Rates Complimentary Breakfast Late Check-Out Free Wi-Fi Access Access to Hotel Amenities Loyalty Program Benefits Flexible Booking",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-06f35f1f6d3d?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/memberonly.jpeg",
   },
   {
     title: "Family Fun Package",
@@ -54,8 +49,7 @@ const items = [
     buttonText: "Upto 10% Off",
     description:
       "Discounted Rates for Families Complimentary Breakfast for the Entire Family Late Check-Out Free Wi-Fi Access Access to Hotel Amenities for Children Family-Friendly Activities and Attractions Flexible Booking Availability and Restrictions",
-    image:
-      "https://images.unsplash.com/photo-1582719478250-06f35f1f6d3d?auto=format&fit=crop&w=800&q=80",
+    image: "/offer-images/fimaly.jpg",
   },
 ];
 
