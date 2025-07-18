@@ -9,7 +9,7 @@ export default function HeroVideo() {
       playsInline
       className="absolute inset-0 w-full h-full object-cover -z-10"
     >
-      <source src="/hero.webm" type="video/webm" />
+      <source src="/hero.mp4" type="video/mp4" />
     </video>
   );
 }
