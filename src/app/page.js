@@ -8,6 +8,8 @@ import { StickyScrollRevealDemo } from "@/components/Acternity-ui-components/Sti
 import Features from "@/components/Features";
 import Achievements from "@/components/Banners/Achievements";
 import OfferPromotions from "@/components/OfferPromotions";
+import ContactPage from "./(app)/contact/page";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <StickyScrollRevealDemo />
       <Achievements />
       <OfferPromotions />
+      <ContactPage />
+      <Footer />
     </>
   );
 }
